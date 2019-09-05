@@ -6,7 +6,7 @@ while True:
     num_int = int(input("Input a number: "))
     if num_int < 0:
         if total >= 0:
-            print("The maximum number is", max_int)
+            print("The maximum is", max_int)
         break
     total += num_int
 # largest number calculation
